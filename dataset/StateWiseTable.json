@@ -1,0 +1,41 @@
+{
+	"name": "StateWiseTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutputSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "States",
+				"type": "varchar"
+			},
+			{
+				"name": "Confirmed",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Recovered",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Deaths",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ActiveCases",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Covid19Project"
+		}
+	}
+}
