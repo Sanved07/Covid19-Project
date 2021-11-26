@@ -1,0 +1,9 @@
+{
+	"name": "covid19projectbysanved",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "67a20e78-4159-4aac-a397-51bd515d2083",
+		"tenantId": "e19fe80d-733f-40e1-9d02-e1857d1e0152"
+	}
+}
